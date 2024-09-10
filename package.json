@@ -1,11 +1,10 @@
 {
   "name": "geo-from-ip-ilkkah",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Get geolocation 🌐 information about an IP address 📲",
   "main": "lib/geo-from-ip.js",
   "scripts": {
-    "install": "node lib/update.js",
-    "install-debug": "DEBUG=geo-from-ip:* node lib/update.js",
+    "updatedb": "node lib/update.js",
     "test": "DEBUG=geo-from-ip:* jest --collectCoverage"
   },
   "repository": {
