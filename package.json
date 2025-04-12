@@ -1,6 +1,6 @@
 {
   "name": "geo-from-ip-ilkkah",
-  "version": "2.1.8",
+  "version": "2.1.9",
   "description": "Get geolocation 🌐 information about an IP address 📲",
   "main": "lib/geo-from-ip.js",
   "scripts": {
@@ -13,10 +13,6 @@
     "mmdb/GeoIP2-City-Test.mmdb",
     "mmdb/filelist.md"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/VikramTiwari/geo-from-ip.git"
-  },
   "keywords": [
     "geo",
     "ip",
@@ -37,17 +33,6 @@
   "bugs": {
     "url": "https://github.com/VikramTiwari/geo-from-ip/issues"
   },
-  "engines": {
-    "node": ">=12"
-  },
-  "prettier": {
-    "printWidth": 80,
-    "semi": false,
-    "singleQuote": true,
-    "tabWidth": 2,
-    "trailingComma": "all"
-  },
-  "homepage": "https://github.com/VikramTiwari/geo-from-ip",
   "dependencies": {
     "debug": "^4.3.1",
     "maxmind-db-reader": "^0.2.1",
