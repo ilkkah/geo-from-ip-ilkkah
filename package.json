@@ -10,7 +10,7 @@
   "files": [
     "lib/",
     "mmdb/config.js",
-    "mmdb/GeoIP2-City-Test.mmdb",
+    "mmdb/GeoLite2-City-Test.mmdb",
     "mmdb/filelist.md"
   ],
   "keywords": [
