@@ -1,6 +1,6 @@
 {
   "name": "geo-from-ip-ilkkah",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "description": "Get geolocation 🌐 information about an IP address 📲",
   "main": "lib/geo-from-ip.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "files": [
     "lib/",
     "mmdb/config.js",
-    "mmdb/empty.csv",
+    "mmdb/GeoLite2-City-Zero.mmdb",
     "mmdb/filelist.md"
   ],
   "repository": {
