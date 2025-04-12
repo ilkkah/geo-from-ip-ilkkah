@@ -1,6 +1,6 @@
 {
   "name": "geo-from-ip-ilkkah",
-  "version": "2.1.9",
+  "version": "2.1.10",
   "description": "Get geolocation 🌐 information about an IP address 📲",
   "main": "lib/geo-from-ip.js",
   "scripts": {
@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "debug": "^4.3.1",
-    "maxmind-db-reader": "^0.2.1",
+    "mmdb-reader": "^1.2.0",
     "node-fetch": "^2.6.0",
     "targz": "^1.0.1"
   },
