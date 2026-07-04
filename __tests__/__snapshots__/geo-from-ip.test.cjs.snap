@@ -1,0 +1,261 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`geo-from-ip allData 1.1.1.1 1`] = `
+{
+  "city": null,
+  "code": {
+    "registeredCountry": "AU",
+    "state": null,
+  },
+  "geonameId": {
+    "city": null,
+    "registeredCountry": 2077456,
+    "state": null,
+  },
+  "registeredCountry": "Australia",
+  "state": null,
+}
+`;
+
+exports[`geo-from-ip allData 8.8.8.8 1`] = `
+{
+  "city": null,
+  "code": {
+    "continent": "NA",
+    "country": "US",
+    "registeredCountry": "US",
+    "state": null,
+  },
+  "continent": "North America",
+  "country": "United States",
+  "geonameId": {
+    "city": null,
+    "continent": 6255149,
+    "country": 6252001,
+    "registeredCountry": 6252001,
+    "state": null,
+  },
+  "location": {
+    "accuracy_radius": 1000,
+    "latitude": 37.751,
+    "longitude": -97.822,
+    "time_zone": "America/Chicago",
+  },
+  "registeredCountry": "United States",
+  "state": null,
+}
+`;
+
+exports[`geo-from-ip allData 18.12.25.208 1`] = `
+{
+  "city": "Cambridge",
+  "code": {
+    "continent": "NA",
+    "country": "US",
+    "registeredCountry": "US",
+    "state": "MA",
+  },
+  "continent": "North America",
+  "country": "United States",
+  "geonameId": {
+    "city": 4931972,
+    "continent": 6255149,
+    "country": 6252001,
+    "registeredCountry": 6252001,
+    "state": 6254926,
+  },
+  "location": {
+    "accuracy_radius": 1000,
+    "latitude": 42.3649,
+    "longitude": -71.0987,
+    "metro_code": 506,
+    "time_zone": "America/New_York",
+  },
+  "postal": "02139",
+  "registeredCountry": "United States",
+  "state": "Massachusetts",
+}
+`;
+
+exports[`geo-from-ip allData 53.251.2.108 1`] = `
+{
+  "city": null,
+  "code": {
+    "continent": "EU",
+    "country": "DE",
+    "registeredCountry": "DE",
+    "state": null,
+  },
+  "continent": "Europe",
+  "country": "Germany",
+  "geonameId": {
+    "city": null,
+    "continent": 6255148,
+    "country": 2921044,
+    "registeredCountry": 2921044,
+    "state": null,
+  },
+  "location": {
+    "accuracy_radius": 200,
+    "latitude": 51.2993,
+    "longitude": 9.491,
+    "time_zone": "Europe/Berlin",
+  },
+  "registeredCountry": "Germany",
+  "state": null,
+}
+`;
+
+exports[`geo-from-ip allData 95.84.136.77 1`] = `
+{
+  "city": "Moscow",
+  "code": {
+    "continent": "EU",
+    "country": "RU",
+    "registeredCountry": "RU",
+    "state": "MOW",
+  },
+  "continent": "Europe",
+  "country": "Russia",
+  "geonameId": {
+    "city": 524901,
+    "continent": 6255148,
+    "country": 2017370,
+    "registeredCountry": 2017370,
+    "state": 524894,
+  },
+  "location": {
+    "accuracy_radius": 5,
+    "latitude": 55.7487,
+    "longitude": 37.6187,
+    "time_zone": "Europe/Moscow",
+  },
+  "postal": "127247",
+  "registeredCountry": "Russia",
+  "state": "Moscow",
+}
+`;
+
+exports[`geo-from-ip allData 199.188.195.120 1`] = `
+{
+  "city": "San Francisco",
+  "code": {
+    "continent": "NA",
+    "country": "US",
+    "registeredCountry": "US",
+    "state": "CA",
+  },
+  "continent": "North America",
+  "country": "United States",
+  "geonameId": {
+    "city": 5391959,
+    "continent": 6255149,
+    "country": 6252001,
+    "registeredCountry": 6252001,
+    "state": 5332921,
+  },
+  "location": {
+    "accuracy_radius": 5,
+    "latitude": 37.7797,
+    "longitude": -122.4159,
+    "metro_code": 807,
+    "time_zone": "America/Los_Angeles",
+  },
+  "postal": "94103",
+  "registeredCountry": "United States",
+  "state": "California",
+}
+`;
+
+exports[`geo-from-ip allData 223.63.194.232 1`] = `
+{
+  "city": "Changwon",
+  "code": {
+    "continent": "AS",
+    "country": "KR",
+    "registeredCountry": "KR",
+    "state": "48",
+  },
+  "continent": "Asia",
+  "country": "South Korea",
+  "geonameId": {
+    "city": 1846326,
+    "continent": 6255147,
+    "country": 1835841,
+    "registeredCountry": 1835841,
+    "state": 1902028,
+  },
+  "location": {
+    "accuracy_radius": 50,
+    "latitude": 35.0869,
+    "longitude": 128.8109,
+    "time_zone": "Asia/Seoul",
+  },
+  "postal": "516",
+  "registeredCountry": "South Korea",
+  "state": "Gyeongsangnam-do",
+}
+`;
+
+exports[`geo-from-ip error 0 1`] = `
+{
+  "code": {},
+  "error": "NA",
+  "geonameId": {},
+  "ip": "0",
+}
+`;
+
+exports[`geo-from-ip error 0.0.0.0 1`] = `
+{
+  "code": {},
+  "error": "NA",
+  "geonameId": {},
+  "ip": "0.0.0.0",
+}
+`;
+
+exports[`geo-from-ip error 10.0.0.1 1`] = `
+{
+  "code": {},
+  "error": "NA",
+  "geonameId": {},
+  "ip": "10.0.0.1",
+}
+`;
+
+exports[`geo-from-ip error 127.0.0.1 1`] = `
+{
+  "code": {},
+  "error": "NA",
+  "geonameId": {},
+  "ip": "127.0.0.1",
+}
+`;
+
+exports[`geo-from-ip error 172.16.0.1 1`] = `
+{
+  "code": {},
+  "error": "NA",
+  "geonameId": {},
+  "ip": "172.16.0.1",
+}
+`;
+
+exports[`geo-from-ip error 192.168.0.1 1`] = `
+{
+  "code": {},
+  "error": "NA",
+  "geonameId": {},
+  "ip": "192.168.0.1",
+}
+`;
+
+exports[`geo-from-ip error 255.255.255.255 1`] = `
+{
+  "code": {},
+  "error": "NA",
+  "geonameId": {},
+  "ip": "255.255.255.255",
+}
+`;
